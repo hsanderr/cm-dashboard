@@ -1,0 +1,24 @@
+{
+  "name": "cm-dashboard",
+  "version": "1.0.0",
+  "description": "Repository for condition monitoring (CM) dashboard web page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h-sanderr/cm-dashboard.git"
+  },
+  "author": "Henrique Sander Lourenço",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/h-sanderr/cm-dashboard/issues"
+  },
+  "homepage": "https://github.com/h-sanderr/cm-dashboard#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "mqtt": "^5.0.5"
+  }
+}
